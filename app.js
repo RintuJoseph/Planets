@@ -105,7 +105,7 @@ const App=(props)=>{
           diameter={planet.diameter}
           moons={planet.moons}
           url={planet.url}
-
+          key={planet.id.toString()}    
 
         />
       )} 
